@@ -17,7 +17,7 @@ on:
 jobs:
   build:
     # Only on our fork — never on Vatuu upstream (which has no PC port branch).
-    if: github.repository == 'SlickAmogus/silent-hill-decomp'
+    if: github.repository == 'davgar99/silent-hill-decomp-linux'
     # 22.04 links against an older glibc than ubuntu-latest (24.04), so the binary
     # runs on a wider range of distros.
     runs-on: ubuntu-22.04

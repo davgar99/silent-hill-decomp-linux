@@ -20,7 +20,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'SlickAmogus/silent-hill-decomp'
+    if: github.repository == 'davgar99/silent-hill-decomp-linux'
     runs-on: macos-14
 
     steps:
